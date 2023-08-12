@@ -31,4 +31,4 @@ if place:
             image_path = [images[condition] for condition in sky_conditions]
             st.image(image_path, width=115)
     except KeyError:
-        st.info("You entering no existing place!")
+        st.info("That place dose not exist.")
